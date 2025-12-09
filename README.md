@@ -23,14 +23,14 @@ This project recommends movies based on **plot**, **genres**, **keywords**, **ac
 
 ##  Features
 
-✔ Cleans and preprocesses TMDB datasets
-✔ Extracts genres, keywords, top 3 actors, and director
-✔ Builds a combined **tags** feature
-✔ Uses **TF-IDF vectorization** for text representation
-✔ Computes **cosine similarity** between movies
-✔ Generates top movie recommendations
-✔ Beautiful **Streamlit UI**
-✔ Fetches **movie posters** with TMDB API
+1. Cleans and preprocesses TMDB datasets
+2. Extracts genres, keywords, top 3 actors, and director
+3. Builds a combined **tags** feature
+4. Uses **TF-IDF vectorization** for text representation
+5. Computes **cosine similarity** between movies
+6. Generates top movie recommendations
+7. Beautiful **Streamlit UI**
+8. Fetches **movie posters** with TMDB API
 
 ---
 
