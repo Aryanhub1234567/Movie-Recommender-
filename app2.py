@@ -9,7 +9,7 @@ import requests
 merged = pickle.load(open('movies_df.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
-API_KEY = "9945fe02ddf7b350ae9074ee4b0eddec"
+API_KEY = "YOUR_TMDB_API_KEY"
 
 # ------------------------------------------------------
 # TMDB Poster Fetch Function
@@ -77,3 +77,4 @@ if st.button("Recommend"):
             st.image(posters[i], width=150)
             st.text(names[i])
             st.markdown("---")
+
