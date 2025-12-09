@@ -3,7 +3,7 @@ Here’s a **clear, simple, and project-specific explanation** of how **cosine s
 
 ---
 
-# ⭐ How Cosine Similarity Is Implemented in This Movie Recommender Project
+#  How Cosine Similarity Is Implemented in This Movie Recommender Project
 
 The Cosine Similarity implementation happens in **three main steps**:
 
@@ -106,7 +106,7 @@ because their feature vectors have **small angles between them**.
 
 ---
 
-# ⭐ In One Line
+#  In One Line
 
 **Cosine similarity works by converting movie text into numerical vectors using TF-IDF, then measuring how similar these vectors are by comparing their angles.**
 
@@ -116,7 +116,7 @@ Here is the **exact list of columns from `tmdb_5000_movies.csv` that are useful 
 
 ---
 
-# ✅ **Useful Columns (Keep These)**
+#  **Useful Columns (Keep These)**
 
 ### **1. title**
 
@@ -145,7 +145,7 @@ Here is the **exact list of columns from `tmdb_5000_movies.csv` that are useful 
 
 ---
 
-# 🟡 **Optional but Can Be Used (If You Want Advanced Features)**
+#  **Optional but Can Be Used (If You Want Advanced Features)**
 
 ### **6. tagline**
 
@@ -169,7 +169,7 @@ Here is the **exact list of columns from `tmdb_5000_movies.csv` that are useful 
 
 ---
 
-# ❌ **Not Useful for Basic Content-Based Recommendation (Ignore These)**
+#  **Not Useful for Basic Content-Based Recommendation (Ignore These)**
 
 These do **not** help determine content similarity:
 
@@ -192,7 +192,7 @@ These are either:
 
 ---
 
-# ⭐ Final Recommended Features to Use
+#  Final Recommended Features to Use
 
 For a solid TMDB content-based movie recommender:
 
@@ -215,3 +215,4 @@ These together build a strong “tags” feature.
 I can share the **exact list of steps** to convert these useful columns into a final “tags” column (without code), or build the full recommendation system notebook.
 
 Just tell me!
+
